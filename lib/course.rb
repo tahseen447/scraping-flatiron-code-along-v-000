@@ -11,6 +11,6 @@ class Course
   end
 
   def reset_all
-    @@all.clear
+    self.class.all.clear
   end
 end
